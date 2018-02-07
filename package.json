@@ -1,0 +1,14 @@
+{
+  "name": "JAWA",
+  "version": "1.0.0",
+  "description": "Just Another Writting App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "author": "Felipe",
+  "devDependencies": {
+    "electron-prebuilt-compile": "^1.7.8"
+  }
+}

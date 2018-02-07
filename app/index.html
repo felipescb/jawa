@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JAWA : Just Another Writting App</title>
+    <link rel="stylesheet" href="css/photon.min.css">
+    <script src="js/menu.js" charset="utf-8"></script>
+    <style>
+      
+      #jawa-editor {
+        background-color: #002b36;
+        height: 100%;
+        width: 100%;
+      }
+  
+      .line {
+        height: 20px;
+        width: 100%;
+      }
+
+      .line:nth-of-type(odd) {
+          background: #eee8d5;
+      }
+
+      .line:nth-of-type(even) {
+          background: #fdf6e3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="window">
+
+      <header class="toolbar toolbar-header">
+        <h1 class="title">JAWA : Just Another Writting App</h1>
+      </header>
+      
+      <div class="window-content">
+       <div id="jawa-editor"></div>
+      </div>
+    </div>
+    <script>
+      import {Editor} from './js/editor.js'
+      var jawa = new Editor("#jawa-editor")
+    </script>
+  </body>
+</html>
